@@ -1,0 +1,48 @@
+//*---- font google ----*//
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap');
+/*---==================== start Variables =====================---*/
+:root {
+    --main-color: #007581;
+    --main-transition: .5s;
+    -main-pt: 100px;
+    -main-pb: 100px;
+    --font-family: 'Baloo 2', cursive;
+    --main-p: #353535;   
+    --main-border-r: 6px;    
+}
+/*---====================== End Variables =======================---*/
+/*---===================== start Global Rules===================--- */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+    body {
+        font-family: var(--font-family);
+            
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            text-decoration: none;
+        }
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .container {
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+/* End Global Rules */
